@@ -1,4 +1,4 @@
-# Workfully Frontend Test
+# GitHub Repo Search
 
 ![Application screenshot](images/Screenshot.png)
 
@@ -13,8 +13,8 @@ NEXT_PUBLIC_ORIGIN=http://localhost:3000
 ## Build and run Docker image
 
 ```bash
-docker build -t workfully-frontend-test .
-docker run --rm -p 3000:3000 --name workfully-frontend-test workfully-frontend-test
+docker build -t github-repo-search .
+docker run --rm -p 3000:3000 --name github-repo-search github-repo-search
 ```
 
 🥳 The application is available on http://localhost:3000
